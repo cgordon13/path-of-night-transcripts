@@ -9,3 +9,5 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/gangirl/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/gang role/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/gang roll/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/gang girl/Gangrel/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ Reece/Reiss/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ reece/Reiss/g' {} +
