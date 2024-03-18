@@ -45,3 +45,12 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/Rob Mir head/Rob Muirhead/g' {
 find . -type f -name "*.txt" -exec sed -i'' -e 's/when Cabot/Wynn Cabot/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Erica Webb/Erika Webb/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/erica webb/Erika Webb/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Rebecca staglefest/Rebecca Steigelfest/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Rob mirrorhead/Rob Muirhead/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/solarity/Celerity/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Solarity/Celerity/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ vikos/ Vykos/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Rollins/Rowlands/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/rollins/Rowlands/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ vicos/ Vykos/g' {} +
+
