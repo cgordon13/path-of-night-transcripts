@@ -53,4 +53,19 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/ vikos/ Vykos/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Rollins/Rowlands/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/rollins/Rowlands/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/ vicos/ Vykos/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Brita /Britta /g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/brita /Britta /g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ brita/ Britta/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Knicks/Nyx/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/knicks/Nyx/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/cotery/Coterie/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/anti-deluvians/Antideluvian/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/anti-diluvians/Antideluvians/g' {} +
+
+
+cotery
+
+
+#manual
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ brita\n/ Britta\n/g' {} +
 
