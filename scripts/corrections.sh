@@ -61,9 +61,27 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/knicks/Nyx/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/cotery/Coterie/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/anti-deluvians/Antideluvian/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/anti-diluvians/Antideluvians/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/anti-tribu/Antitribu/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/rhys/Reiss/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Rhys/Reiss/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/codery/Coterie/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Amber Gino/Ambrogino/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/cautery/Coterie/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/bruja/Brujah/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Camarillo/Camarilla/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/camarillo/Camarilla/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/la Sombra/Lasombra/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/La Sombra/Lasombra/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/LA Sombra/Lasombra/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ Bretta/ Britta/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ bretta/ Britta/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Beretta/Britta/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/beretta/Britta/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Brett Ashcroft/Britta Ashcroft/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/torador/Toreador/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Rebecca segafest/Rebecca Steigelfest/g' {} +
 
 
-cotery
 
 
 #manual
