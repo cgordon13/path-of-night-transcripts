@@ -80,6 +80,8 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/beretta/Britta/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Brett Ashcroft/Britta Ashcroft/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/torador/Toreador/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Rebecca segafest/Rebecca Steigelfest/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Rebecca steglefest/Rebecca Steigelfest/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Sea Dog/C-Dog/g' {} +
 
 
 
