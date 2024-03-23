@@ -86,6 +86,10 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/ venture/ Ventrue/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/ Venture/ Ventrue/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/British/Britta/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/british/Britta/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/pen dragon/Pendragon/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/pen Dragon/Pendragon/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Pen Dragon/Pendragon/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Ben Dragon/Pendragon/g' {} +
 
 
 
