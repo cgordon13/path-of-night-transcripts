@@ -38,9 +38,9 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/Rebecca segalfest/Rebecca Stei
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Bretta Ashcroft/Britta Ashcroft/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Garrett Gabby/Garrett Gabbey/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/garrett gabby/Garrett Gabbey/g' {} +
-find . -type f -name "*.txt" -exec sed -i'' -e 's/The Venture/The Ventrue/g' {} +
-find . -type f -name "*.txt" -exec sed -i'' -e 's/the venture/The Ventrue/g' {} +
-find . -type f -name "*.txt" -exec sed -i'' -e 's/the Venture/The Ventrue/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/The Venture/the Ventrue/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/the venture/the Ventrue/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/the Venture/the Ventrue/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Rob Mir head/Rob Muirhead/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/when Cabot/Wynn Cabot/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Erica Webb/Erika Webb/g' {} +
@@ -90,6 +90,10 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/pen dragon/Pendragon/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/pen Dragon/Pendragon/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Pen Dragon/Pendragon/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Ben Dragon/Pendragon/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/yon Peter Zone/Jan Pieterzoon/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/yon Peterson/Jan Pieterzoon/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/yon piresun/Jan Pieterzoon/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Opus skate/Obfuscate/g' {} +
 
 
 
