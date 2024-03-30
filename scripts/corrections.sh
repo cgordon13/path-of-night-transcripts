@@ -8,6 +8,7 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/gangball/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/gangirl/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/gang role/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/gang roll/Gangrel/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/Gang roll/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/gang girl/Gangrel/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/ Reece/ Reiss/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/ reece/ Reiss/g' {} +
@@ -94,7 +95,8 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/yon Peter Zone/Jan Pieterzoon/
 find . -type f -name "*.txt" -exec sed -i'' -e 's/yon Peterson/Jan Pieterzoon/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/yon piresun/Jan Pieterzoon/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Opus skate/Obfuscate/g' {} +
-
+find . -type f -name "*.txt" -exec sed -i'' -e 's/builtmore/Biltmore/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/quartery/Coterie/g' {} +
 
 
 
