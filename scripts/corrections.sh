@@ -97,6 +97,10 @@ find . -type f -name "*.txt" -exec sed -i'' -e 's/yon piresun/Jan Pieterzoon/g' 
 find . -type f -name "*.txt" -exec sed -i'' -e 's/Opus skate/Obfuscate/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/builtmore/Biltmore/g' {} +
 find . -type f -name "*.txt" -exec sed -i'' -e 's/quartery/Coterie/g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ wi / Wynn /g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ Wi / Wynn /g' {} +
+find . -type f -name "*.txt" -exec sed -i'' -e 's/ WI / Wynn /g' {} +
+
 
 
 
